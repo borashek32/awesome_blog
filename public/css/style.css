@@ -1,0 +1,25 @@
+.header {
+  background-image: url("/img/main.jpeg");
+  background-size: cover;
+  height: 250px;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 150px;
+}
